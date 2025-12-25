@@ -22,8 +22,9 @@ btnAdd.addEventListener('click', () => {
         li.remove();
     })
 
-    li.appendChild(deleteBtn);
+
     li.appendChild(span);
+    li.appendChild(deleteBtn);
     todoList.appendChild(li);
 
     input.value = '';
